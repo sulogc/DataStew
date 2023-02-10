@@ -15,7 +15,7 @@ SQL, DBMS, DFS(Distributed File System), Cloud ...etc 학습용 레포입니다.
 
 
 ---
-### 구성원
+### Member
 
 | Name  | username   | 
 | --------- | ------------------------ |
@@ -27,13 +27,15 @@ SQL, DBMS, DFS(Distributed File System), Cloud ...etc 학습용 레포입니다.
 <br><br>
 
 ---
-### 자료실
+### Resources
 
 ./StudyMaterials 혹은 Readme에 URL 추가해주시면 됩니다.
 
  - 데이터 산업 진흥원 [DataOnAir SQL](https://dataonair.or.kr/db-tech-reference/d-guide/sql/?pageid=5&mod=list)
 
+<br><br>
 
 ---
+### Rules
 
-
+- case: PascalCase
