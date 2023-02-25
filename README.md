@@ -23,11 +23,11 @@ SQL, DBMS, DFS(Distributed File System), Cloud ...etc 학습용 레포입니다.
 ---
 ### Member
 
-| Name  | username   | --- | 
+| Name  | username   | profile | 
 | --------- | ------------------------ | --- |
 | 임수형 | sulogc | [<img src = "https://github.com/sulogc.png" width="25" height="25">](https://github.com/sulogc) |
 | 유창재 | ChangJae-YOO | [<img src = "https://github.com/ChangJae-YOO.png" width="25" height="25">](https://github.com/ChangJae-YOO) |
-| 이예슬 | dontk1llme | [<img src = "https://github.com/dontk1llme.png" width="25" height="25">](https://github.com/dontk1llme) |
+| 이예슬 | dontk1llme | [<img src = "https://github.com/dontk1llme.png" width="50" height="50">](https://github.com/dontk1llme) |
 
 
 <br><br>
