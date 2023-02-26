@@ -166,7 +166,7 @@ ex) **Chen, IE, Barker**, UML
 - 식별자에 의해 식별이 가능해야된다. 속성이 있어야 된다.
 - 인스턴스 : record, 실제 데이터. 엔티티는 인스턴스의 집합
 - 프로세스에 이용되야함. 제거하거나, 누락된 프로세스를 찾거나
-![](./src/sulogc1.png)
+![](./src/sulogc1.PNG)
 난 뭐지 같은 소리 하고 있네.
 
 - 다른 엔티티와 최소 하나 이상의 *관계* 를 가져야함.....
@@ -224,10 +224,10 @@ ex) **Chen, IE, Barker**, UML
 
 - 엔티티 안에 인스턴스가 개별적으로 관계를 가지는 것이 관계 페어링, 이들의 집합이 **관계**
 
-![](./src/sulogc2.png)
+![](./src/sulogc2.PNG)
 
 - 관계의 분류
-![](./src/sulogc3.png)
+![](./src/sulogc3.PNG)
 
     * 존재에 의한 관계: 위와 같이 존재 형태에 따라 관계가 형성되어 있다.
 
@@ -261,12 +261,12 @@ ex) **Chen, IE, Barker**, UML
 
 - 다음 구분에 따라 식별자를 구분한다.
 
-![](./src/sulogc4.png)
+![](./src/sulogc4.PNG)
 
 
 - 식별자 표기법은 다음과 같다.
 
-![](./src/sulogc5.png)
+![](./src/sulogc5.PNG)
 
 - 주식별자 도출 기준
 
@@ -336,7 +336,7 @@ ex) **Chen, IE, Barker**, UML
 
 데이터처리의 성능은 <span style = "color: #2D3748; background-color:#dcffe4;">조회 성능 - 입력/수정/삭제 성능</span> 으로 구분할 수 있으며, 데이터 모델을 구성하는 방식에 따라 두 성능이 <span style = "color: #2D3748; background-color:#fff5b1;">Trade-Off </span> 이다.
 
-![](./src/sulogc6.png)
+![](./src/sulogc6.PNG)
 
 일반적으로 정규화가 잘 되어 있으면 입력/수정/삭제의 처리 성능이 향상된다. 단, 데이터를 조회할 때에는 조회 성능이 향상될 수도 있고 저하될 수도 있다.
 
@@ -389,10 +389,10 @@ _언제?_ -> 디스크 I/O량에 따른 성능 저하, 경로가 멀어 조인�
 - 반정규화 기법
 
     - 테이블 반정규화
-     ![](./src/sulogc7.png)
+     ![](./src/sulogc7.PNG)
 
     - 칼럼 반정규화
-    ![](./src/sulogc8.png)
+    ![](./src/sulogc8.PNG)
 
     - 관계 반정규화
 
@@ -409,15 +409,15 @@ _언제?_ -> 디스크 I/O량에 따른 성능 저하, 경로가 멀어 조인�
 대량 데이터발생시 트랜잭션 분산이되어 있지 않은경우 디스크 I/O 유발로 성능 저하가 발생할 수 있다. (클라우드 환경이라면 network bendwidth?)
 트랜잭션이 분산 처리될 수 있도록 테이블단위에서 분할 적용을 검토해야함.
 
-![](./src/sulogc9.png)
+![](./src/sulogc9.PNG)
 
 하나의 테이블에 대량의 데이터가 존재하는 경우에는 인덱스의 Tree 구조가 너무 커져 효율성이 떨어져 데이터를 처리(CRUD)할 때 디스크 I/O를 많이 유발하게 됨.
 
 트리구조?!?! -> B-tree, B+tree
 
-![](./src/sulogc10.png)
+![](./src/sulogc10.PNG)
 
-![](./src/sulogc11.png)
+![](./src/sulogc11.PNG)
 
 로그 시간이지만, depth가 깊어지면 디스크 I/O가 발생하나 보다.... pointer가 더 필요한 문제인가?
 
