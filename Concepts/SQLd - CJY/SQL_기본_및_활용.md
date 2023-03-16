@@ -155,6 +155,56 @@ TRUNCATE TABLE TEAM;
 ```
 
 ### DML
+0. 칼럼의 데이터 유형이 문자 유형일 경우 ' SINGLE QUOTATION으로 입력할 값을 입력한다. 숫자일 경우 붙이지 않아야 한다.
+칼럼 별명을 적용할 때 별명 중간에 공백이 들어가는 경우 "" 를 사용해야 한다.
+
+1. INSERT: 테이블에 데이터를 입력하는 방법은 두 가지 유형이 있으며 한 번에 한 건만 입력된다.
+```
+INSERT INTO PLAYER
+(PLAYER_ID, PLAYER_NAME, TEAM_ID, POSITION, HEIGHT, WEIGHT, BACK_NO)
+VALUES ('2002007', ' ', 'K07', 'MF', 178, 73, 7);
+
+INSERT INTO PLAYER
+VALUES ('2002010','이청용','K07','','BlueDragon','2002','MF','17',NULL, NULL,'1',180,69); 
+```
+
+2. UPDATE
+```
+UPDATE PLAYER
+SET BACK_NO = 99;
+```
+
+3. DELETE
+```
+DELETE FROM PLAYER;
+```
+
+4. SELECT
+```
+SELECT PLAYER_ID, PLAYER_NAME, TEAM_ID, POSITION, HEIGHT, WEIGHT, BACK_NO FROM PLAYER;
+
+SELECT ALL POSITION FROM PLAYER;
+
+SELECT DISTINCT POSITION FROM PLAYER;
+
+SELECT * FROM PLAYER;
+
+SELECT PLAYER_NAME AS 선수명 FROM PLAYER;
+칼럼 별명에서 를 꼭 사용하지 않아도 되므로 아래 SQL은 위SQL 과 같은 결과를 출력한다.
+SELECT PLAYER_NAME 선수명 FROM PLAYER;
+
+칼럼 별명을 적용할 때 띄어쓰기나 기호가 들어가는 경우 ""를 이용해야 한다.
+```
+
+5. 산술연산자, 합성연산자
+- 합성 연산자: 칼럼과 문자 또는 다른 칼럼과 연결시킨다.
+- 문자 표현식의 결과에 의해 새로운 칼럼을 생성한다.
+```
+SELECT PLAYER_NAME 이름, HEIGHT - WEIGHT "키-몸무게" FROM PLAYER;
+
+SELECT PLAYER NAME || '선수, '|| HEIGHT 'cm, ' || WEIGHT || 'kg' 체격정보 FROM PLAYER;
+```
+
 
 ### TCL
 
