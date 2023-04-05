@@ -13,9 +13,8 @@ SQL, DBMS, DFS(Distributed File System), Cloud ...etc 학습용 레포입니다.
 | Contents  | Description              | Due Date |-|
 | --------- | ------------------------ | -------- | - |
 | MySql 실습 | 생활 코딩 [3시간 32분] | 2.19(일)| :heavy_check_mark: </span> |
-| SQLD - 48 | 접수일 2.20 ~ 2.24        | 3.19(일) | :speech_balloon: |
-
-
+| SQLD - 48 | 접수일 2.20 ~ 2.24        | 3.19(일) | :heavy_check_mark: |
+| Hadoop | -      | - | :speech_balloon: |
 
 
 <br>
@@ -27,7 +26,7 @@ SQL, DBMS, DFS(Distributed File System), Cloud ...etc 학습용 레포입니다.
 | --------- | ------------------------ | --- |
 | 임수형 | sulogc | [<img src = "https://github.com/sulogc.png" width="25" height="25">](https://github.com/sulogc) |
 | 유창재 | ChangJae-YOO | [<img src = "https://github.com/ChangJae-YOO.png" width="25" height="25">](https://github.com/ChangJae-YOO) |
-| 이예슬 | dontk1llme | [<img src = "https://github.com/dontk1llme.png" width="50" height="50">](https://github.com/dontk1llme) |
+| 이예슬 | dontk1llme | [<img src = "https://github.com/dontk1llme.png" width="25" height="25">](https://github.com/dontk1llme) |
 
 
 <br><br>
